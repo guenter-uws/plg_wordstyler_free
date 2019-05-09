@@ -5,7 +5,7 @@ Joomla Plugin WORDSTYLER getestet unter Joomla 3.x
 
 Mit dem Pugin Wordstyler können ausgewählte Worte in Artikeln bestimmter Kategorien temporär durch verschieden Styles hervorgehoben werden (solange das Plugin aktiv ist) 
 
-<p><img src=/guenter-uws/plg_wordstyler_free/parameter.PNG" alt="Wordstyler Param" style="max-width:100%;"></p>
+<p><img src="parameter.PNG" alt="Wordstyler Param" style="max-width:100%"></p>
 
 # Installation
 Das Plugin (ZIP-Datei plg_wordstyler_free.zip)  kann in Joomla über den Menüpunkt "Erweiterungen" installiert werden: 
