@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content">
+	<name>WORDSTYLER for Joomla</name>
+	<author>Guenter Standecke</author>
+	<creationDate>April 2019</creationDate>
+	<copyright>Copyright (C) 2019. UWS e.K. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>guenter.uws@gmail.com</authorEmail>
+	<authorUrl>www.uws-webagentur.de</authorUrl>
+	<version>0.0.1</version>
+	<description>PLG_CONTENT_WORDSTYLER01_XML_DESCRIPTION</description>
+# Name der Plugin-Dateien und Folder
+	<files>
+		<filename plugin="wordstyler01">wordstyler01.php</filename>
+		<filename>index.html</filename>
+		<!--<folder>sql</folder>-->
+	</files>
+
+    <!--
+    <media destination="plg_content_wordstyler01">
+        <folder>images</folder>
+        <folder>css</folder>
+        <folder>js</folder>
+    </media>
+    -->
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_wordstyler01.ini</language>
+		<language tag="en-GB">en-GB.plg_content_wordstyler01.sys.ini</language>
+		<language tag="de-DE">de-DE.plg_content_wordstyler01.ini</language>
+		<language tag="de-DE">de-DE.plg_content_wordstyler01.sys.ini</language>
+	</languages>
+
+
+	<config>
+		<fields name="params">
+			<fieldset name = "basic" >
+				<field
+					name= "category"
+					type= "text"
+					default=""
+					label="PLG_CONTENT_WORDSTYLER01_FIELD_CATEGORY_LABEL"
+					description="PLG_CONTENT_WORDSTYLER01_FIELD_CATEGORY_DESC"
+				/>
+				<field
+					name= "word1"
+					type= "text"
+					default=""
+					label="PLG_CONTENT_WORDSTYLER01_FIELD_WORD1_LABEL"
+					description="PLG_CONTENT_WORDSTYLER01_FIELD_WORD1_DESC"
+				/>
+				<field
+					name= "colorw1"
+					type= "color"
+					default="#rrggbb"
+					label="PLG_CONTENT_WORDSTYLER01_FIELD_COLORW1_LABEL"
+					description="PLG_CONTENT_WORDSTYLER01_FIELD_COLORW1_DESC"
+					
+				/>
+				<field 
+					name= "style1"
+					type= "list" 
+					default="no" 
+					label="PLG_CONTENT_WORDSTYLER01_FIELD_STYLE1_LABEL" 
+					description="PLG_CONTENT_WORDSTYLER01_FIELD_STYLE1_DESC" 
+					>
+						<option value="no">NO</option>
+				        <option value="em">Kursiv</option>
+						<option value="strong">Strong</option>
+						<option value="both">Kursiv + Strong</option>
+				</field>
+
+			</fieldset>
+
+			
+		</fields>
+	</config>
+	
+
+</extension>
